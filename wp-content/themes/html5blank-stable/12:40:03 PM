@@ -1,0 +1,83 @@
+12:40:03 PM
+System
+Taylor A has joined the chat!
+12:40:34 PM
+Taylor A
+Hello, I hope you are having a wonderful day! My name is Taylor and I'd be glad to assist you with any questions you may have today.
+12:42:55 PM
+Taylor A
+Are you still there?
+12:43:47 PM
+Seve Sheldon
+Hello, sorry I have a confusing issue: As of now, when you go to my domain: awesometeachernation.com it takes you to a freshmember site (a membership-style site that i don't want anymore). I have built a new site (that is not a freshmember site) and I now want awesometeachernation.com to go to this new site. I see that it is registered AND I believe hosted with eNom. I am currently hosting my other domain: positiveteachingstrategies.com at hostgator.
+12:44:39 PM
+Seve Sheldon
+Does this make sense? I'm sorry it's so confusing
+12:46:54 PM
+Taylor A
+I understand for the most part! No worries. How exactly can I help. Are you trying to figure out where it is hosted?
+12:47:34 PM
+Taylor A
+awesometeachernation.com?
+12:47:52 PM
+Seve Sheldon
+yeah I think so
+12:48:40 PM
+Taylor A
+It is pointing to dns1.name-services.com Nameservers. I am not familiar with those. I will check the IP. One moment, please.
+12:49:17 PM
+Seve Sheldon
+what do I have to do to make my new files (new website) appear at awesometeachernation.com and not the old freshmember site?
+12:50:20 PM
+Seve Sheldon
+Since I already am hosting my other website (positiveteachingstrategies.com) at hostgator, would it be easier to host awesometeachernation.com at hostgator as well?
+12:53:08 PM
+Taylor A
+The awesometeachernation.com A records are from ec2-54-71-103-75.us-west-2.compute.amazonaws.com. You currently have a Hatchling plan with Hostgator so only one site can be hosted there. If you had a baby plan, you could add the domain here and point to wherever you'd like or move the content to the site's directory and have it hosted all at the same host.
+12:53:52 PM
+Taylor A
+Do you have the files for the new website and are they developed for awesometeachernation.com?
+12:54:09 PM
+Seve Sheldon
+yes correct
+12:56:42 PM
+Taylor A
+Okay, if you wanted to host both, you would need to updgrade the account to at least a Baby plan to host more than one domain.
+
+
+Here are the steps.
+
+If you are upgrading to a Business account from a Hatchling or Baby account, or to a Baby account from a Hatchling account, you can now do this immediately from inside of your billing portal. To do so:
+
+Log into your Billing Portal. (Here is the link: portal.hostgator.com/login.)
+Click the Packages icon from the menu bar.
+Click the Upgrade button to the right of the package you wish to upgrade.
+Select the plan you wish to upgrade to from the dropdown box.
+Place a checkmark to agree to our Terms of Service, Cancellation Policy, and Privacy Policy.
+Click the Change Plan Now button.
+1:00:51 PM
+Seve Sheldon
+Ok thanks! And then once in there where do I use the DNS or the IP address?
+1:03:13 PM
+Taylor A
+After upgrading, you would point the domain to your server by the Nameservers. I can provide them for you here.
+1:03:34 PM
+Seve Sheldon
+OK! Do I have to do anything further with eNom?
+1:03:37 PM
+Taylor A
+You would then addon the domain to your cPanel with the Addon domain page to create a directory.
+1:04:08 PM
+Taylor A
+Only if that is where the domain is registered. You will update nameservers where the domain is registered.
+1:05:18 PM
+Seve Sheldon
+Ok thank you so much!
+
+
+
+addon domain to hostgator
+
+awesometeachernation
+
+1144TTeeaacchhiinngg

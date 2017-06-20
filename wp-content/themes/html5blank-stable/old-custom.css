@@ -1,0 +1,196 @@
+
+/****** BODY ******/
+
+body {
+    background-image: url("http://secureholdings.sevesheldon.com/wp-content/uploads/2016/09/secureholdingsbackground.jpeg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    /*margin-top: 70px; had to do this in style.css ?? */
+    overflow: hidden;
+    background-position: center;
+}
+
+/****** HEADER ******/
+
+.wrapper h1 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: -15px;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    background: rgba(256,256,256,.8);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.logo {
+    float: left;
+}
+
+/****** NAV ******/
+
+
+nav ul {
+    margin: 30px 10%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 1px 10px;
+    float: right;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    color: #e3e3e3;
+}
+
+.current-menu-item a {
+    text-decoration: underline;
+/*    color: #97372F !important;*/
+}
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/****** Home Page ******/
+
+.home #menu-item-18 {
+    display: none;
+}
+
+
+/* CONTACT FORM */
+
+/*#contactbox {
+	width: 250px;
+	background-color: rgba(256,256,256,.8);
+}*/
+
+
+div.wpcf7 {
+    display: inline-block;
+}
+
+#contactbox{
+    width: 265px;
+    height: 270px;
+    background-color: rgba(256,256,256,.8);
+    padding-left: 15px;
+    padding-top: 1px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+#contactbox p{
+	margin-bottom: 12px;
+}
+#contactbox input[type="email"]{
+	border:none;
+	border:1px solid #000;
+	font-size :14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 540px;
+	padding: 5px;
+}
+
+#contactbox input[type="tel"]{
+	border:none;
+	border:1px solid #000;
+	font-size :14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 540px;
+	padding: 5px;
+}
+
+#contactbox input[type="text"]{
+	border:none;
+	border:1px solid #000;
+	font-size :14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 540px;
+	padding: 5px;
+}
+
+#contactbox input[type="email"]{
+	width:230px;
+}
+
+#contactbox input[type="tel"]{
+	width:230px;
+}
+
+#contactbox input[type="text"]{
+	width:230px;
+}
+
+#contactbox input[type="submit"]{
+	padding:8px 18px;
+	background:#222;
+	color:#fff;
+	border: 1px solid #fff;
+	float:left;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#contactbox input[type="email"]:focus{
+	background: #eee;
+}
+
+#contactbox input[type="tel"]:focus{
+	background: #eee;
+}
+
+#contactbox input[type="text"]:focus{
+	background: #eee;
+}
+
+#contactbox input[type="submit"]:hover{
+	background:#fff;
+	color:#222;
+	border: 1px solid #222;
+}
+
+/****** ABOUT ******/
+
+.content-box {
+    width: 650px;
+    max-width: 95%;
+    margin: 0 auto 60px;
+    background-color: rgba(256,256,256,.9);
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 9px;
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 11px solid transparent;
